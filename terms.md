@@ -10,4 +10,4 @@ All data is used solely for analytics and visualization purposes. We do not sell
 
 Users may revoke access at any time through the respective platform.
 
-Contact: your@email.com
+Contact: khalid.kremis66@gmail.com
