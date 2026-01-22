@@ -6,4 +6,4 @@ We store access tokens securely (encrypted) to retrieve authorized metrics and d
 
 Creators can revoke access at any time through TikTok/Instagram settings.
 
-Contact: your@email.com
+Contact: khalid.kremis66@gmail.com
