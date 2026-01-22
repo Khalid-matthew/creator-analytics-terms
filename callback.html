@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head><meta charset="utf-8"><title>Connected</title></head>
+  <body>
+    <h1>Account Connected Successfully</h1>
+    <p>TikTok redirected back with an authorization code.</p>
+    <p>This code will be exchanged by our backend for tokens to fetch authorized metrics.</p>
+
+    <script>
+      const p = new URLSearchParams(location.search);
+      const code = p.get("code");
+      const state = p.get("state");
+
+      const box = document.createElement("pre");
+      box.style.padding = "12px";
+      box.style.border = "1px solid #ddd";
+      box.style.background = "#f8f8f8";
+      box.textContent =
+        "code: " + (code || "(none)") + "\n" +
+        "state: " + (state || "(none)");
+      document.body.appendChild(box);
+    </script>
+  </body>
+</html>
